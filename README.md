@@ -5,8 +5,9 @@
 # CVPR2016 Tutorial: 3D Deep Learning with Marvin
   - [CVPR2016 Tutorial: 3D Deep Learning with Marvin](http://vision.princeton.edu/event/cvpr16/3DDeepLearning/)
   - [3D Shape Retrieval](https://shapenet.cs.stanford.edu/shrec16/)
-  - [C3D](https://github.com/facebook/C3D)
+  - [C3D](https://github.com/facebook/C3D), [website](http://www.cs.dartmouth.edu/~dutran/c3d/)
   - [Video Caffe(C3D)](https://github.com/chuckcho/video-caffe)
+  - [DeepMedic, Brain Lesion Segmentation](https://github.com/Kamnitsask/deepmedic)
   - 
   
 
