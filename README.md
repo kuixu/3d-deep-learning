@@ -20,6 +20,7 @@
   and implement LSTM.
   - Use Tree LSTM in place of LSTM. [`Paper`](http://www.aclweb.org/anthology/P/P15/P15-1150.pdf) [`Code`](https://github.com/stanfordnlp/treelstm) [`Slides`](http://kaishengtai.github.io/static/slides/treelstm-acl2015.pdf)
   - [Learning 3D Object Orientations From Synthetic Images](http://cs231n.stanford.edu/reports/rqi_final_report.pdf)
+  - 3D Shape Segmentation with Projective Convolutional Networks. CVPR2017. [`Project`](http://people.cs.umass.edu/~kalo/papers/shapepfcn/) [`Poster`](http://people.cs.umass.edu/~kalo/papers/shapepfcn/ShapePFCN_poster.pdf) [`Presentation`](http://people.cs.umass.edu/~kalo/papers/shapepfcn/ShapePFCN_poster.pdf) 
 
 # DL on Medical Image
   - [Antibody-supervised deep learning for quantification of tumor-infiltrating immune cells in hematoxylin and eosin stained breast cancer samples](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5027738/)
