@@ -4,9 +4,18 @@
 ## RGBD 
 
 
-### Optical flow
+### Flow
+Method uses optical flow (2 temporally adjacent images)
+
 
 ### Laser
+
+Laser Points: Method uses point clouds from Velodyne laser scanner
+
+
+### Datasets
+
+  - [KITTI](http://www.cvlibs.net/datasets/kitti/)
 
 ## Volumetric
 
@@ -21,6 +30,12 @@
   - [HeartSeg, 3D-FC-DenseNet](https://github.com/yulequan/HeartSeg)
   - [3DUnet](http://lmb.informatik.uni-freiburg.de/Publications/2016/CABR16/cicek16miccai.pdf)
 
+
+## Tasks
+
+  - 3D Classification
+  - 3D Segmentation
+  - 3D Object Detection
 
 
 ## CVPR2016 Tutorial: 3D Deep Learning with Marvin
