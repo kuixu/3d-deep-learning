@@ -1,41 +1,44 @@
 # 3d-deep-learning
 3D Deep Learning works
 
-## RGBD 
-
-
-### Flow
-Method uses optical flow (2 temporally adjacent images)
-
-
-### Laser
-
-Laser Points: Method uses point clouds from Velodyne laser scanner
-
-
-### Datasets
-
-  - [KITTI](http://www.cvlibs.net/datasets/kitti/)
-
-## Volumetric
-
-### Datasets
-
-  - [3DShapeNet](http://3dshapenets.cs.princeton.edu)
-  - [HVSMR](http://segchd.csail.mit.edu/data.html)
-  - [BRATS Data](https://sites.google.com/site/braintumorsegmentation/home/brats2015)
-  
-### Network
-
-  - [HeartSeg, 3D-FC-DenseNet](https://github.com/yulequan/HeartSeg)
-  - [3DUnet](http://lmb.informatik.uni-freiburg.de/Publications/2016/CABR16/cicek16miccai.pdf)
-
 
 ## Tasks
 
-  - 3D Classification
-  - 3D Segmentation
-  - 3D Object Detection
+### 3D Classification
+
+#### Datasets
+  
+  - [3DShapeNet](http://3dshapenets.cs.princeton.edu)
+
+#### Networks
+
+  - [3D-DenseNet](https://github.com/barrykui/3ddensenet.torch)
+  - [Voxnet]
+  - [3Dnin, network in network]
+  
+### 3D Segmentation
+
+#### Datasets
+  
+  - [HVSMR](http://segchd.csail.mit.edu/data.html)
+  - [BRATS Data](https://sites.google.com/site/braintumorsegmentation/home/brats2015)
+
+#### Networks
+
+  - [HeartSeg, 3D-FC-Densenet](https://github.com/yulequan/HeartSeg)
+  - [3DUnet](http://lmb.informatik.uni-freiburg.de/Publications/2016/CABR16/cicek16miccai.pdf)
+
+### 3D Object Detection
+
+#### Datasets
+ 
+Data types: RGBD, Flow, Laser
+  - [KITTI](http://www.cvlibs.net/datasets/kitti/)
+
+#### Networks  
+  
+  - [MV3D, Multi-View 3D Object Detection Network for Autonomous Driving](https://arxiv.org/pdf/1611.07759) [code](https://github.com/bostondiditeam/MV3D)
+
 
 
 ## CVPR2016 Tutorial: 3D Deep Learning with Marvin
