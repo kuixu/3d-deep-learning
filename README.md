@@ -14,7 +14,7 @@
 
   - [3D-DenseNet](https://github.com/barrykui/3ddensenet.torch)
   - [Voxnet]
-  - [3Dnin, network in network]
+  - [3D-NIN, network in network]
   
 ### 3D Segmentation
 
@@ -26,18 +26,23 @@
 #### Networks
 
   - [HeartSeg, 3D-FC-Densenet](https://github.com/yulequan/HeartSeg)
-  - [3DUnet](http://lmb.informatik.uni-freiburg.de/Publications/2016/CABR16/cicek16miccai.pdf)
+  - [3D-Unet](http://lmb.informatik.uni-freiburg.de/Publications/2016/CABR16/cicek16miccai.pdf)
+  - [PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation](https://arxiv.org/abs/1612.00593) [code](https://github.com/charlesq34/pointnet)
+  - [PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space](https://arxiv.org/pdf/1706.02413.pdf) [code](https://github.com/charlesq34/pointnet2)
 
 ### 3D Object Detection
 
 #### Datasets
  
 Data types: RGBD, Flow, Laser
-  - [KITTI](http://www.cvlibs.net/datasets/kitti/)
+  - [KITTI](http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d)
 
 #### Networks  
   
   - [MV3D, Multi-View 3D Object Detection Network for Autonomous Driving](https://arxiv.org/pdf/1611.07759) [code](https://github.com/bostondiditeam/MV3D)
+  - [Avod, Joint 3D Proposal Generation and Object Detection from View Aggregation](https://arxiv.org/abs/1712.02294) [code](https://github.com/kujason/avod)
+  - [F-PointNet, Frustum PointNets for 3D Object Detection from RGB-D Data](https://arxiv.org/abs/1711.08488)
+  - [VoxelNet: End-to-End Learning for Point Cloud Based 3D Object Detection](https://arxiv.org/abs/1711.06396)
 
 
 
