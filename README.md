@@ -9,7 +9,7 @@
 
 #### Spherical CNNs
   - [Taco S. Cohen, Spherical CNNs](https://openreview.net/forum?id=Hkbd5xZRb) [ICLR 2018 Best paper] 
-  - [Learning SO\(3\) Equivariant Representations with Spherical CNNs](https://arxiv.org/pdf/1711.06721v2.pdf) [code](https://github.com/daniilidis-group/spherical-cnn)
+  - [Learning SO\(3\) Equivariant Representations with Spherical CNNs](https://arxiv.org/pdf/1711.06721v2.pdf) [[code](https://github.com/daniilidis-group/spherical-cnn)]
 
 
 ### 3D Classification
@@ -33,10 +33,10 @@
 
 #### Networks
 
-  - [HeartSeg, 3D-FC-Densenet] [code](https://github.com/yulequan/HeartSeg)
+  - [HeartSeg, 3D-FC-Densenet] [[code](https://github.com/yulequan/HeartSeg)]
   - [3D-Unet](http://lmb.informatik.uni-freiburg.de/Publications/2016/CABR16/cicek16miccai.pdf)
-  - [PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation](https://arxiv.org/abs/1612.00593) [code](https://github.com/charlesq34/pointnet)
-  - [PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space](https://arxiv.org/pdf/1706.02413.pdf) [code](https://github.com/charlesq34/pointnet2)
+  - [PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation](https://arxiv.org/abs/1612.00593) [[code](https://github.com/charlesq34/pointnet)]
+  - [PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space](https://arxiv.org/pdf/1706.02413.pdf) [[code](https://github.com/charlesq34/pointnet2)]
 
 ### 3D Object Detection
 
@@ -47,8 +47,8 @@ Data types: RGBD, Flow, Laser
 
 #### Networks  
   
-  - [MV3D, Multi-View 3D Object Detection Network for Autonomous Driving](https://arxiv.org/pdf/1611.07759) [code](https://github.com/bostondiditeam/MV3D)
-  - [Avod, Joint 3D Proposal Generation and Object Detection from View Aggregation](https://arxiv.org/abs/1712.02294) [code](https://github.com/kujason/avod)
+  - [MV3D, Multi-View 3D Object Detection Network for Autonomous Driving](https://arxiv.org/pdf/1611.07759) [[code](https://github.com/bostondiditeam/MV3D)]
+  - [Avod, Joint 3D Proposal Generation and Object Detection from View Aggregation](https://arxiv.org/abs/1712.02294) [[code](https://github.com/kujason/avod)]
   - [F-PointNet, Frustum PointNets for 3D Object Detection from RGB-D Data](https://arxiv.org/abs/1711.08488)
   - [VoxelNet: End-to-End Learning for Point Cloud Based 3D Object Detection](https://arxiv.org/abs/1711.06396)
 
@@ -58,8 +58,8 @@ Data types: RGBD, Flow, Laser
   - [CVPR2016 Tutorial: 3D Deep Learning with Marvin](http://vision.princeton.edu/event/cvpr16/3DDeepLearning/)
   - [3D Shape Retrieval](https://shapenet.cs.stanford.edu/shrec16/)
   - [C3D](https://github.com/facebook/C3D), [website](http://www.cs.dartmouth.edu/~dutran/c3d/)
-  - [Video Caffe(C3D)](https://github.com/chuckcho/video-caffe)
-  - [DeepMedic, Brain Lesion Segmentation](https://github.com/Kamnitsask/deepmedic)
+  - [Video Caffe(C3D)] [[code](https://github.com/chuckcho/video-caffe)]
+  - [DeepMedic, Brain Lesion Segmentation] [[code(https://github.com/Kamnitsask/deepmedic)]
   - [3D Keypoint Detection and Feature Description](http://staffhome.ecm.uwa.edu.au/~00051632/page100.html)
   
 ## Codes and libs for 3D
