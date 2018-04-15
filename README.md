@@ -4,6 +4,15 @@
 
 ## Tasks
 
+
+### 3D Representation
+
+#### Spherical CNNs
+  - [Taco S. Cohen, Spherical CNNs](https://openreview.net/forum?id=Hkbd5xZRb)
+  - [Learning SO\(3\) Equivariant Representations
+with Spherical CNNs](https://arxiv.org/pdf/1711.06721v2.pdf)
+
+
 ### 3D Classification
 
 #### Datasets
