@@ -8,9 +8,8 @@
 ### 3D Representation
 
 #### Spherical CNNs
-  - [Taco S. Cohen, Spherical CNNs, ICLR 2018 Best paper](https://openreview.net/forum?id=Hkbd5xZRb)
-  - [Learning SO\(3\) Equivariant Representations
-with Spherical CNNs](https://arxiv.org/pdf/1711.06721v2.pdf)
+  - [Taco S. Cohen, Spherical CNNs](https://openreview.net/forum?id=Hkbd5xZRb) [ICLR 2018 Best paper] 
+  - [Learning SO\(3\) Equivariant Representations with Spherical CNNs](https://arxiv.org/pdf/1711.06721v2.pdf) [code](https://github.com/daniilidis-group/spherical-cnn)
 
 
 ### 3D Classification
@@ -34,7 +33,7 @@ with Spherical CNNs](https://arxiv.org/pdf/1711.06721v2.pdf)
 
 #### Networks
 
-  - [HeartSeg, 3D-FC-Densenet](https://github.com/yulequan/HeartSeg)
+  - [HeartSeg, 3D-FC-Densenet] [code](https://github.com/yulequan/HeartSeg)
   - [3D-Unet](http://lmb.informatik.uni-freiburg.de/Publications/2016/CABR16/cicek16miccai.pdf)
   - [PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation](https://arxiv.org/abs/1612.00593) [code](https://github.com/charlesq34/pointnet)
   - [PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space](https://arxiv.org/pdf/1706.02413.pdf) [code](https://github.com/charlesq34/pointnet2)
