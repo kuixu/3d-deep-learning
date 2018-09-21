@@ -10,6 +10,8 @@
 #### Spherical CNNs
   - Taco S. Cohen, Spherical CNNs, ICLR 2018 Best paper \[[paper](https://openreview.net/forum?id=Hkbd5xZRb)\] 
   - Learning SO\(3\) Equivariant Representations with Spherical CNNs \[[paper](https://arxiv.org/pdf/1711.06721v2.pdf)] [[code](https://github.com/daniilidis-group/spherical-cnn)]
+  - Deep Learning Advances on Different 3D Data
+Representations: A Survey  \[[paper](https://arxiv.org/pdf/1808.01462.pdf)\] 
 
 
 ### 3D Classification
@@ -59,12 +61,15 @@
 
 #### Networks
 
-  - HeartSeg, 3D-FC-Densenet [[code](https://github.com/yulequan/HeartSeg)]
+  - HeartSeg, 3D-FC-Densenet, Automatic 3D Cardiovascular MR Segmentation with 
+Densely-Connected Volumetric ConvNets - MICCAI 2017 - [[code](https://github.com/yulequan/HeartSeg)]
   - 3D-Unet \[[paper](http://lmb.informatik.uni-freiburg.de/Publications/2016/CABR16/cicek16miccai.pdf)]
-  - PointNet
-  - PointNet++
-  - KCNet
-  - SO-Net
+  - ClusterNet: 3D Instance Segmentation in RGB-D Images \[[paper](https://arxiv.org/pdf/1807.08894.pdf)\]
+  - PointNet \[[project](http://stanford.edu/~rqi/pointnet/)]\[[paper](http://arxiv.org/abs/1612.00593)]\[[code](https://github.com/charlesq34/pointnet)]\[[video](https://www.youtube.com/watch?v=Cge-hot0Oc0)][[slides](http://stanford.edu/~rqi/pointnet/docs/cvpr17_pointnet_slides.pdf)]
+  - PointNet++ \[[paper](https://arxiv.org/pdf/1706.02413.pdf)\] \[[code](https://github.com/charlesq34/pointnet2)] 
+  - KCNet, Mining Point Cloud Local Structures by Kernel Correlation and Graph Pooling, CVPR2018   \[[project](http://vis-www.cs.umass.edu/mvcnn/)\] \[[code](https://github.com/suhangpro/mvcnn)\] \[[paper](http://arxiv.org/abs/1505.00880)\]\[[data](http://maxwell.cs.umass.edu/mvcnn-data/)\] \[[video](http://vis-www.cs.umass.edu/mvcnn/docs/1694_video.mp4)\]
+  - SO-Net, SO-Net: Self-Organizing Network for Point Cloud Analysis, CVPR2018 \[[paper]()\] \[[paper]()\] \[[code]()\]
+  - 3D Shape Segmentation with Projective Convolutional Networks. CVPR2017. [`Project`](http://people.cs.umass.edu/~kalo/papers/shapepfcn/) [`Poster`](http://people.cs.umass.edu/~kalo/papers/shapepfcn/ShapePFCN_poster.pdf) [`Presentation`](http://people.cs.umass.edu/~kalo/papers/shapepfcn/ShapePFCN_poster.pdf) 
 
 ### 3D Object Detection
 
@@ -80,8 +85,12 @@ Data types: RGBD, Flow, Laser
   - Avod, Joint 3D Proposal Generation and Object Detection from View Aggregation \[[paper](https://arxiv.org/abs/1712.02294)\] [[code](https://github.com/kujason/avod)]
   - F-PointNet, Frustum PointNets for 3D Object Detection from RGB-D Data \[[paper](https://arxiv.org/abs/1711.08488)\] \[[code](https://github.com/charlesq34/frustum-pointnets)\]
   - VoxelNet: End-to-End Learning for Point Cloud Based 3D Object Detection \[[paper](https://arxiv.org/abs/1711.06396)\]
+  - PIXOR: Real-time 3D Object Detection from Point Clouds - CVPR 2018 -  \[[paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Yang_PIXOR_Real-Time_3D_CVPR_2018_paper.pdf)\] \[[code](https://github.com/charlesq34/frustum-pointnets)\]
+  - 3D Object Proposals using Stereo Imagery for Accurate Object Class Detection \[[paper](https://arxiv.org/abs/1608.07711)\]
+  - 3D Bounding Box Estimation Using Deep Learning and Geometry \[[paper](https://arxiv.org/abs/1612.00496)\]  \[[code](https://github.com/smallcorgi/3D-Deepbox)\]
+  - [Learning 3D Object Orientations From Synthetic Images](http://cs231n.stanford.edu/reports/rqi_final_report.pdf)
 
-### 3D Reconstruction (Generation)
+### 3D Reconstruction & Generation
 
 #### Datasets
 
@@ -92,6 +101,21 @@ Data types: RGBD, Flow, Laser
 
   - SO-Net
   - 3D-GAN
+  - Generating 3D Adversarial Point Clouds \[[paper](https://arxiv.org/pdf/1809.07016.pdf)\] 
+
+### 3D Human Pose Estimation
+
+#### Datasets
+
+Data types: RGBD, Flow, Laser
+  - ShapeNet
+
+#### Networks  
+
+  - Synthetic Occlusion Data Augmentation -2018 ECCV PoseTrack Challenge - \[[paper](https://arxiv.org/abs/1809.04987)\] \[[code](https://github.com/isarandi/synthetic-occlusion)\]
+  - Towards 3D Human Pose Estimation in the Wild: a Weakly-supervised Approach - ICCV 2017  - \[[paper](https://arxiv.org/abs/1809.04987)\] \[[code](https://github.com/xingyizhou/pose-hg-3d)\] \[[code-pytorch](https://github.com/xingyizhou/Pytorch-pose-hg-3d)
+  - 3D human pose estimation from depth maps using a deep combination of poses \[[paper](https://arxiv.org/pdf/1807.05389.pdf)\] 
+
 
 ## CVPR2016 Tutorial: 3D Deep Learning with Marvin
   - [CVPR2016 Tutorial: 3D Deep Learning with Marvin](http://vision.princeton.edu/event/cvpr16/3DDeepLearning/)
@@ -105,18 +129,12 @@ Data types: RGBD, Flow, Laser
   - [util3d](https://github.com/fyu/util3d)
   - [spectral-lib](https://github.com/mbhenaff/spectral-lib)
   - [3D-Caffe](https://github.com/yulequan/3D-Caffe#installation)
+  - [3D-ResNets-PyTorch](https://github.com/kenshohara/3D-ResNets-PyTorch)
 
-## Papers
-  - [Learning 3D Object Orientations From Synthetic Images](http://cs231n.stanford.edu/reports/rqi_final_report.pdf)
-  - Read [`LSTM: A Search Space Odyssey`](http://arxiv.org/pdf/1503.04069v1.pdf)
-    and implement LSTM.
-  - Use Tree LSTM in place of LSTM. [`Paper`](http://www.aclweb.org/anthology/P/P15/P15-1150.pdf) [`Code`](https://github.com/stanfordnlp/treelstm) [`Slides`](http://kaishengtai.github.io/static/slides/treelstm-acl2015.pdf)
-  - [Learning 3D Object Orientations From Synthetic Images](http://cs231n.stanford.edu/reports/rqi_final_report.pdf)
-  - 3D Shape Segmentation with Projective Convolutional Networks. CVPR2017. [`Project`](http://people.cs.umass.edu/~kalo/papers/shapepfcn/) [`Poster`](http://people.cs.umass.edu/~kalo/papers/shapepfcn/ShapePFCN_poster.pdf) [`Presentation`](http://people.cs.umass.edu/~kalo/papers/shapepfcn/ShapePFCN_poster.pdf) 
 
 ## DL on Medical Image
   - [Antibody-supervised deep learning for quantification of tumor-infiltrating immune cells in hematoxylin and eosin stained breast cancer samples](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5027738/)
 
-- [x] more usefull tools should be added in.
-  - [x] Read and process process data as needed by the network.
-  - [x] Read [`Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation`](http://arxiv.org/pdf/1406.1078.pdf) and implement a GRU.
+## More 3D Papers
+
+see [ [3D-Machine-Learning](https://github.com/timzhang642/3D-Machine-Learning)]
