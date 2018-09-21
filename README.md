@@ -44,7 +44,7 @@ Representations: A Survey  \[[paper](https://arxiv.org/pdf/1808.01462.pdf)\]
         - octree
       - O-cnn: Octree-based convolutional neural networks for 3d shape analysis, TOG2017
         - octree
-      - SO-Net, SO-Net: Self-Organizing Network for Point Cloud Analysis, CVPR2018 \[[paper]()\] \[[paper]()\] \[[code]()\]
+      - SO-Net: Self-Organizing Network for Point Cloud Analysis, CVPR2018 \[[paper](https://arxiv.org/abs/1803.04249)\]  \[[code](https://github.com/lijx10/SO-Net)\]
         - point-to-node kNN search Self-Organizing Map \(SOM\)  
       - KCNet, Mining Point Cloud Local Structures by Kernel Correlation and Graph Pooling, CVPR2018   \[[project](http://vis-www.cs.umass.edu/mvcnn/)\] \[[code](https://github.com/suhangpro/mvcnn)\] \[[paper](http://arxiv.org/abs/1505.00880)\]\[[data](http://maxwell.cs.umass.edu/mvcnn-data/)\] \[[video](http://vis-www.cs.umass.edu/mvcnn/docs/1694_video.mp4)\]
         - Kernel Correlation
@@ -68,7 +68,7 @@ Densely-Connected Volumetric ConvNets - MICCAI 2017 - [[code](https://github.com
   - PointNet \[[project](http://stanford.edu/~rqi/pointnet/)]\[[paper](http://arxiv.org/abs/1612.00593)]\[[code](https://github.com/charlesq34/pointnet)]\[[video](https://www.youtube.com/watch?v=Cge-hot0Oc0)][[slides](http://stanford.edu/~rqi/pointnet/docs/cvpr17_pointnet_slides.pdf)]
   - PointNet++ \[[paper](https://arxiv.org/pdf/1706.02413.pdf)\] \[[code](https://github.com/charlesq34/pointnet2)] 
   - KCNet, Mining Point Cloud Local Structures by Kernel Correlation and Graph Pooling, CVPR2018   \[[project](http://vis-www.cs.umass.edu/mvcnn/)\] \[[code](https://github.com/suhangpro/mvcnn)\] \[[paper](http://arxiv.org/abs/1505.00880)\]\[[data](http://maxwell.cs.umass.edu/mvcnn-data/)\] \[[video](http://vis-www.cs.umass.edu/mvcnn/docs/1694_video.mp4)\]
-  - SO-Net, SO-Net: Self-Organizing Network for Point Cloud Analysis, CVPR2018 \[[paper]()\] \[[paper]()\] \[[code]()\]
+  - SO-Net: Self-Organizing Network for Point Cloud Analysis, CVPR2018 \[[paper](https://arxiv.org/abs/1803.04249)\]  \[[code](https://github.com/lijx10/SO-Net)\]
   - 3D Shape Segmentation with Projective Convolutional Networks. CVPR2017. [`Project`](http://people.cs.umass.edu/~kalo/papers/shapepfcn/) [`Poster`](http://people.cs.umass.edu/~kalo/papers/shapepfcn/ShapePFCN_poster.pdf) [`Presentation`](http://people.cs.umass.edu/~kalo/papers/shapepfcn/ShapePFCN_poster.pdf) 
 
 ### 3D Object Detection
@@ -99,8 +99,8 @@ Data types: RGBD, Flow, Laser
 
 #### Networks  
 
-  - SO-Net
-  - 3D-GAN
+  - SO-Net: Self-Organizing Network for Point Cloud Analysis, CVPR2018 \[[paper](https://arxiv.org/abs/1803.04249)\]  \[[code](https://github.com/lijx10/SO-Net)\]
+  - 3D-GAN  \[[paper](https://arxiv.org/abs/1612.00496)\]  \[[code](https://github.com/zck119/3dgan-release)\]
   - Generating 3D Adversarial Point Clouds \[[paper](https://arxiv.org/pdf/1809.07016.pdf)\] 
 
 ### 3D Human Pose Estimation
