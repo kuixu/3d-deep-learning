@@ -70,6 +70,7 @@ Densely-Connected Volumetric ConvNets - MICCAI 2017 - [[code](https://github.com
   - KCNet, Mining Point Cloud Local Structures by Kernel Correlation and Graph Pooling, CVPR2018   \[[project](http://vis-www.cs.umass.edu/mvcnn/)\] \[[code](https://github.com/suhangpro/mvcnn)\] \[[paper](http://arxiv.org/abs/1505.00880)\]\[[data](http://maxwell.cs.umass.edu/mvcnn-data/)\] \[[video](http://vis-www.cs.umass.edu/mvcnn/docs/1694_video.mp4)\]
   - SO-Net: Self-Organizing Network for Point Cloud Analysis, CVPR2018 \[[paper](https://arxiv.org/abs/1803.04249)\]  \[[code](https://github.com/lijx10/SO-Net)\]
   - 3D Shape Segmentation with Projective Convolutional Networks. CVPR2017. [`Project`](http://people.cs.umass.edu/~kalo/papers/shapepfcn/) [`Poster`](http://people.cs.umass.edu/~kalo/papers/shapepfcn/ShapePFCN_poster.pdf) [`Presentation`](http://people.cs.umass.edu/~kalo/papers/shapepfcn/ShapePFCN_poster.pdf) 
+  - nnU-Net: Breaking the Spell on Successful Medical Image Segmentation \[[paper](https://arxiv.org/pdf/1904.08128.pdf)\] \[[code](https://github.com/MIC-DKFZ/nnunet)] 
 
 ### 3D Object Detection
 
